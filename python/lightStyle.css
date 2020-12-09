@@ -1,0 +1,62 @@
+QTextEdit, QPlainTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #adadad;
+    border-radius: 5px;
+    color: #000000;
+}
+QDialog {
+    background-color: #eeeeee;  
+}
+QHBoxLayout {
+    background-color: #f5f5f5;  
+}
+QScrollBar {
+    background: #dbdbdb;
+    border: 5px solid #ffffff;
+    width: 14px;
+    padding: -4px -10px;
+}
+QListView {
+    border-style: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+QTabBar::tab {
+    background-color: #dfdfdf;
+    border-right: 1px solid #adadad;
+    border-left: 1px solid #adadad;
+    border-top: 1px solid #adadad;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 3px;
+    color:  #000000;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    color:  #000000;
+}
+QTabWidget::pane { 
+    border: 1px solid #adadad;
+    background-color: #ffffff; 
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; 
+ }
+QCheckBox::item{
+    background-color: #ffffff;
+    color: #000000;
+}
+QLabel{
+    color: #000000;
+}
+QLineEdit{
+    background-color: #f5f5f5;
+    color: #353535;
+
+}
+
